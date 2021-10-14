@@ -1,12 +1,14 @@
 # Charites
 
-An easy, intuitive, and efficient command-line tool for writing vector map styles compatible with the [Mapbox](https://docs.mapbox.com/mapbox-gl-js/style-spec/) and [MapLibre](https://maplibre.org/maplibre-gl-js-docs/style-spec/) Style Specification in YAML.
-With YAML format's readability, JSON compiler, linter, and live style viewer on a local browser, you can simplify your map styling workflow.
+Charites makes it easy for beginners and experts to create map designs.
 
-In Greek mythology, the [Charites](https://en.wikipedia.org/wiki/Charites) are the three goddesses of charm, beauty, and human creativity. They are believed to have been worshipped not only by artists but also by those who aspired to technology to infuse them with a creative spirit.
+You can write vector map styles in YAML format while previewing changes in local browser. With YAML’s readability, file inclusion and variables, JSON compiler, validator, and live style viewer on a local browser, Charites gives intuitive, easy, and efficient map styling experience to beginners and experts.
+
+In Greek mythology, [Charites](https://en.wikipedia.org/wiki/Charites) are the goddesses of charm, beauty, and human creativity. They were worshipped by artists and those who aspired to technology.
 
 ## Features
 
+- Supports vector map styles compatible with the [Mapbox](https://docs.mapbox.com/mapbox-gl-js/style-spec/) and [MapLibre](https://maplibre.org/maplibre-gl-js-docs/style-spec/) Style Specification
 - Initiate a project from scratch, or convert an existing `style.json` file to generate YAML style files.
 - Write styles in a simple YAML format.
 - Divide groups of layers in to multiple files for better readability and mantainability. `!!inc/file <relative-path-to-the-file>`
